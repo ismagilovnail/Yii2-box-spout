@@ -1,0 +1,31 @@
+{
+  "name": "ismagilovnail/yii2-spout",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "spout",
+    "excel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nail Ismagilov",
+      "email": "nailismagilovnick@gmail.com",
+      "homepage": "https://github.com/ismagilovnail/yii2-spout",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "extra": {
+    "bootstrap": "ismagilovnail\\spout\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "ismagilovnail\\spout\\": "src"
+    }
+  }
+}
